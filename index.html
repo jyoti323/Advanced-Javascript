@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Event Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Smart Event Dashboard</h1>
+    <section id="addNewEvents">
+
+    <div id="container-A">
+        <h3>Add New Events</h3>
+        <form action="">
+            <label for="eventTitle">Event Title</label>
+            <input type="text" name="" id="eventTitle"><br>
+
+            <label for="eventDate"> Event Date</label>
+            <input type="date" name="" id="eventDate"><br>
+
+            <label for="eventCategory">Category</label>
+            <select name="" id="eventCategory">
+                <option value="conference">Conference</option> 
+                <option value="webinar">Webinar</option>
+                <option value="meetup">Meetup</option>
+                <option value="workshop">Workshop</option>
+                <option value="social">Social</option>
+            </select>
+            <br>
+
+            <label for="eventDiscription">Event Discription</label>
+            <textarea name="" id="eventDiscription"></textarea>
+            <br>
+
+            <button type="submit">Add Event</button>
+
+
+
+    
+
+        
+
+            
+
+        </form>
+
+    </div>
+    </section>
+
+    <section id="myEvents">
+
+        <div id="container-B">
+
+            <h3>myEvents</h3>
+            <div>
+                <button id="clear-btn">Clear All Events</button>
+                <button id="addSample-btn">Add Sample Events</button>
+            </div>
+
+            <div id="event-Container">
+                <h4> no Events Yet</h4>
+
+            </div>
+        </div>
+    </section>
+
+    <script>
+        let form=document.querySelector('form')
+        let eventTitle=document.querySelector('#eventTitle')
+        let eventDate=document.querySelector('#eventDate')
+        let Category=document.querySelector('#eventCategory')
+        let eventDiscription=document.querySelector('#eventDiscription')
+        let eventContainer=document.querySelector('#eventContainer')
+        let isEmpty = true;
+
+        function addEventFunction(event){
+            event.preventDefault();
+
+            let card=document.createElement('div')
+
+            card.innerHTML = `<button>X</button><h4>${eventTitle.value}
+                                </h4><span>${eventDate.value}
+                                </span><br><span>${eventCategory.value}</span>
+                                <p>${eventDescription.value}</p>`
+            if(isEmpty){
+                    eventContainer.innerHTML=""
+
+                }
+                eventContainer.append(card);
+                isEmpty = false;
+        }
+
+        form.addEventListener('submit' , addEventFunction)
+
+    </script>
+
+    
+</body>
+</html>
