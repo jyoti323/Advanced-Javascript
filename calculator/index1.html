@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <link rel="stylesheet" href="style1.css">
 </head>
 <body>
     <h1 class="text-center"> Go Ahead And Calculate Me!</h1>
@@ -53,8 +54,8 @@
     <script>
         let string="";
         let buttons=document.querySelectorAll('.button,.button-operator');
-        array.from(buttons).forEach((button)=>{
-            button.addEventListener('click'(e)=>{
+        Array.from(buttons).forEach((button)=>{
+            button.addEventListener('click',(e)=>{
                  if(e.target.innerHTML=="="){
                     string=eval(string);
                     document.querySelector("input").value=string;
