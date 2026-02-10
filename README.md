@@ -1,4 +1,4 @@
-# Advanced-Javascript
+<img width="1192" height="659" alt="Smart Event Dashboard - Google Chrome 10-02-2026 23_26_42" src="https://github.com/user-attachments/assets/b419185b-ccfa-44ef-9992-511e42d1130a" /># Advanced-Javascript
 
 🚀 Advanced JavaScript Projects
 
@@ -36,6 +36,10 @@ Features
 - Addition, subtraction, multiplication, division
 - Responsive UI
 - DOM-based logic
+
+-<img width="1192" height="659" alt="calculator" src="https://github.com/user-attachments/assets/a44ee188-9d70-48c4-a1e1-fac9a9edc821" />
+
+
 
 ---
 
