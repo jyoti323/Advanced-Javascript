@@ -1,4 +1,4 @@
-<img width="1192" height="659" alt="Smart Event Dashboard - Google Chrome 10-02-2026 23_26_42" src="https://github.com/user-attachments/assets/b419185b-ccfa-44ef-9992-511e42d1130a" /># Advanced-Javascript
+# Advanced-Javascript
 
 🚀 Advanced JavaScript Projects
 
