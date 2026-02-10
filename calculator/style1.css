@@ -1,27 +1,24 @@
 h1{
     text-align: center;
-
 }
-
 .container{
-    width:500px;
-    margin:auto;
-    border:5px solid black;
+    width: 500px;
+    margin: auto;
+    border: 5px solid black;
 }
-
 .flex{
-    display:flex;
+    display: flex;
     justify-content: space-around;
     align-items: center;
-}
 
+} 
 .flex-col{
-    flex-direction: column;
+    flex-direction:column;
+
 }
 
 .button{
-    background-color: cornflowerblue;
-    
+    background-color:  darkgrey;
     color: white;
     padding: 25px;
     border:4px solid rgb(1, 1, 27);
@@ -33,18 +30,31 @@ h1{
     height:100px;
     text-align: center;
 }
-
 .button-operator{
-    background-color: darkblue;
-    color:white;
-    padding:20px;
-    border:4px solid rgb(1, 1, 27); 
-    border-radius: 30px;    
+    background-color: darkorange;
+    color: white;
+    padding: 20px;
+    border:4px solid rgb(0, 0, 2);
+    border-radius: 30px;
     font-size: 30px;
     margin:6px;
     cursor: pointer;
     width:100px;
+    height:100px;
     text-align: center;
+    
 }
-
-
+.input{
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 8px solid rgb(15, 0, 0);
+    margin: 10px;
+}
+body{
+    background-image: url('https://t3.ftcdn.net/jpg/04/49/74/10/360_F_449741015_7wFz1d5e1voLD3arDjsyST3TtQkZAhg6.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
