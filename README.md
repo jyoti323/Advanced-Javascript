@@ -22,7 +22,10 @@ Features
 Live Demo
 👉 https://jyoti323.github.io/Advanced-Javascript/Smart%20Event%20Dashboard/
 
+
+
 ---
+<img width="1110" height="655" alt="Smart Event Dashboard - Google Chrome 10-02-2026 23_06_16" src="https://github.com/user-attachments/assets/7acebe29-a9f9-4171-8c83-661f38c1d184" />
 
 2️⃣ Calculator
 
